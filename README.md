@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Overview
 
-## Getting Started
+This project is a Next.js application built for listing electric vehicles (EVs). It provides features like searching, filtering, sorting, and pagination, along with a detailed view for each vehicle.
 
-First, run the development server:
+Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Framework: Next.js (React)
+2. Styling: TailwindCSS
+3. State Management: React Hooks & Redux Toolkit
+4. Type checking: TypeScript
+5. Unit Testing: Jest & React Testing Library
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Installation and Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Ensure you have Node.js 20+ installed.
 
-## Learn More
+Run the Application
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository
+2. Navigate to cd <my-next-app>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run the following commands in the terminal
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. npm install
+2. npm run dev
 
-## Deploy on Vercel
+Run tests
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. npm test
