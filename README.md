@@ -1,6 +1,6 @@
 Project Overview
 
-This project is a Next.js application built for listing electric vehicles (EVs). It provides features like searching, AutoComplete Search, filtering and pagination, along with a detailed view for each vehicle.
+This project is a Next.js application designed to showcase listings of electric vehicles (EVs). It features advanced capabilities such as search with AutoComplete, filtering, pagination, and detailed views for individual vehicles, providing a seamless user experience.
 
 Tech Stack
 
@@ -19,10 +19,12 @@ Prerequisites
 Run the Application
 
 1. Clone the repository
-2. Navigate to cd <my-next-app>
+2. Navigate to folder AutoDrive-main by using cd AutoDrive-main
 
 Run the following commands in the terminal
 
 1. npm install
 2. npm run dev
+
+The application will then be accessible locally, typically at http://localhost:3000
 
