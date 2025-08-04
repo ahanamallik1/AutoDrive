@@ -1,6 +1,6 @@
 Project Overview
 
-This project is a Next.js application built for listing electric vehicles (EVs). It provides features like searching, filtering, sorting, and pagination, along with a detailed view for each vehicle.
+This project is a Next.js application built for listing electric vehicles (EVs). It provides features like searching, AutoComplete Search, filtering and pagination, along with a detailed view for each vehicle.
 
 Tech Stack
 
@@ -26,6 +26,3 @@ Run the following commands in the terminal
 1. npm install
 2. npm run dev
 
-Run tests
-
-1. npm test
