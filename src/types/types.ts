@@ -1,4 +1,5 @@
-export interface Vehicle {
+export interface Car {
+  id: number;
   brand: string;
   model: string;
   year: number;
@@ -14,13 +15,17 @@ export interface Vehicle {
   autopilot: boolean;
   kilometer_count: number;
   accidents: boolean;
-  accident_description?: string; // Make this optional
+  accident_description?: string;
   images: string[];
 }
-export interface VehicleData {
-  data: Vehicle[];
+
+export interface CarRoutes {
+  list: string;
+  brands: string;
+  carDetails: (id: string) => string;
 }
-export interface VehicleResponse {
-  count: number;
-  data: Vehicle[];
+
+export interface CarOption {
+  id: string;
+  brand: string;
 }
